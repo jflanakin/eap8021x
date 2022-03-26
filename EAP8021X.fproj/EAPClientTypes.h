@@ -39,6 +39,9 @@ enum {
     kEAPClientStatusFailed = 1,
     kEAPClientStatusAllocationFailed = 2,
     kEAPClientStatusUserInputRequired = 3,
+    /*
+    Server certificate is not trusted
+    */
     kEAPClientStatusConfigurationInvalid = 4,
     kEAPClientStatusProtocolNotSupported = 5,
     kEAPClientStatusServerCertificateNotTrusted = 6,
